@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrar', 
+    sans-serif;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+.btn{
+    border: none;
+    background: #ff0000;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    text-align: left;
+}
+.header{
+    position: relative;
+}
+
+.game-header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 85%;
+    height: 100%;
+    background-color: #ffee2f;
+    z-index: -1;
+}
+.game-header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 85%;
+    height: 100%;
+    background-color: ;
+    z-index: -1;
+}
+.header-content q {
+display: inline-block;
+font-weight: 600;
+font-size: 24px;
+
+}
+.header-content{
+    position: relative;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.header-nav a {
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+margin-top: 0 22px;
+}
+.active-link{
+    color: #ff0000;
+}
+h1{
+font-family: 'Inter',sans- serif;
+font-weight: 700;
+font-size: 72px;
+line-height: 87px;
+text-transform: uppercase;
+max-width: 60%;
+
+}
+.header-btn{
+    width: 120px;
+    height: 120px;
+}
+.header-btn::after {
+    content: url("img/Arrow\3.png");
+}
+.header-img{
+    width: 40%;
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+.team {
+    position: relative;
+    padding-top: 150px;
+}
+
+.team::before{
+    content: "";
+    width: 55%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffee2f;
+    z-index: -1;
+}
+.team-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.member{
+    width: 23%;
+}
+/* Footer */
+.footer{
+    margin-top: 50px;
+    background: #EFEFEF;
+    padding: 18px 27px ;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav a {
+    font-size: 16px;
+    line-height: 20px;
+    color: #7E7E7E;
+    margin: 0 30px;
+}
+ /*n Games page */
+ .game-header .header-img{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+ }
